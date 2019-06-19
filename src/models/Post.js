@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
 
 const PostSchema = new mongoose.Schema({
-    autor: String,
+    author: String,
     place: String,
     description: String,
-    hashtag: String,
+    hashtags: String,
     image: String,
     likes: {
         type: Number,
